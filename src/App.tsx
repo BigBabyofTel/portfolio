@@ -24,7 +24,7 @@ const App: React.FC = () => {
     <main className="flex justify-center items-center flex-col">
     <section className="text-center w-1/2 border border-blue-800 m-2 p-5 shadow-2xl shadow-blue-950 bg-cyan-700">
     <h1 className="p-4 text-white text-4xl">T. Augustus Baker</h1>
-    <p className="text-white">By day, I'm an <span>English teacher</span> for stage 5. I've worked in the American system; however, most of my experience is in the British system using Cambridge International Examination resources.</p>
+    <p className="text-white">By day, I'm an <span>English teacher</span> for stage 5. I've worked in the American system; however, for almost 10 years most of my experience has been in the British system using Cambridge International Examination resources.</p>
     <p className='p-4 text-white'>I've enjoyed teaching and cultivating a bond with my students that makes learning fun and enjoyable. With all my strength, I think of fun and innovative ways to deliver the lesson everyday. </p>
     </section>
     <section className='flex justify-center'>
