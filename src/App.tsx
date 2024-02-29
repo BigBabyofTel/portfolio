@@ -39,10 +39,21 @@ const App: React.FC = () => {
         <CarouselPrevious />
        <CarouselNext />
       </Carousel>
-      
     </section>
-    <section className='border border-black p-5 mt-60 mb-10 '><h2>Experience</h2></section>
-    <section className='border p-5 mt-60 mb-10'><h2>Contact</h2></section>
+    <section className='border border-black p-5 mt-60 mb-10 grid gap-5 grid-cols-3 grid-rows-3 place-content-around'>
+      <h2 className='col-span-3 col-start-2 col-end-3 text-center'>Experience</h2>
+    <article className='col-span-1 col-start-1 col-end-2 row-span-1'><h3>2017 - 2019</h3></article>
+    <article className='col-pan-1 col-start-3 col-end-4 row-span-1'><h3>2019 - 2021</h3></article>
+    <article className='col-span-1 row-span-1 '><h3>2021 - 2022</h3></article>
+    <article className='col-span-1 row-span-1 col-start-3 col-end-4'><h3>2023 - now</h3></article>
+    </section>
+    <section className='border p-5 mt-60 mb-10'>
+      <h2>Contact</h2><ul>
+      <li>GitHub</li>
+      <li>Outlook</li>
+      <li>LinkedIn</li>
+      <li>Discord</li>
+      <li>Reddit</li></ul></section>
     </main>
     </>
   )
